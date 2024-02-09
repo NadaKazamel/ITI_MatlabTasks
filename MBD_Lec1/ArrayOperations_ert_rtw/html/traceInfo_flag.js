@@ -1,0 +1,55 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["ArrayOperations.c:42c35"]=1;
+    this.traceFlag["ArrayOperations.c:42c65"]=1;
+    this.traceFlag["ArrayOperations.c:48c11"]=1;
+    this.traceFlag["ArrayOperations.c:49c8"]=1;
+    this.traceFlag["ArrayOperations.c:49c28"]=1;
+    this.traceFlag["ArrayOperations.c:49c59"]=1;
+    this.traceFlag["ArrayOperations.c:54c26"]=1;
+    this.traceFlag["ArrayOperations.c:54c56"]=1;
+    this.traceFlag["ArrayOperations.c:67c35"]=1;
+    this.traceFlag["ArrayOperations.c:67c65"]=1;
+    this.traceFlag["ArrayOperations.c:73c8"]=1;
+    this.traceFlag["ArrayOperations.c:73c28"]=1;
+    this.traceFlag["ArrayOperations.c:73c59"]=1;
+    this.traceFlag["ArrayOperations.c:77c26"]=1;
+    this.traceFlag["ArrayOperations.c:77c56"]=1;
+    this.traceFlag["ArrayOperations.c:88c52"]=1;
+    this.traceFlag["ArrayOperations.c:89c24"]=1;
+    this.traceFlag["ArrayOperations.c:89c54"]=1;
+    this.traceFlag["ArrayOperations.c:100c49"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["ArrayOperations.c:41"]=1;
+    this.lineTraceFlag["ArrayOperations.c:42"]=1;
+    this.lineTraceFlag["ArrayOperations.c:43"]=1;
+    this.lineTraceFlag["ArrayOperations.c:45"]=1;
+    this.lineTraceFlag["ArrayOperations.c:48"]=1;
+    this.lineTraceFlag["ArrayOperations.c:49"]=1;
+    this.lineTraceFlag["ArrayOperations.c:50"]=1;
+    this.lineTraceFlag["ArrayOperations.c:53"]=1;
+    this.lineTraceFlag["ArrayOperations.c:54"]=1;
+    this.lineTraceFlag["ArrayOperations.c:56"]=1;
+    this.lineTraceFlag["ArrayOperations.c:59"]=1;
+    this.lineTraceFlag["ArrayOperations.c:67"]=1;
+    this.lineTraceFlag["ArrayOperations.c:68"]=1;
+    this.lineTraceFlag["ArrayOperations.c:70"]=1;
+    this.lineTraceFlag["ArrayOperations.c:73"]=1;
+    this.lineTraceFlag["ArrayOperations.c:74"]=1;
+    this.lineTraceFlag["ArrayOperations.c:77"]=1;
+    this.lineTraceFlag["ArrayOperations.c:79"]=1;
+    this.lineTraceFlag["ArrayOperations.c:82"]=1;
+    this.lineTraceFlag["ArrayOperations.c:88"]=1;
+    this.lineTraceFlag["ArrayOperations.c:89"]=1;
+    this.lineTraceFlag["ArrayOperations.c:92"]=1;
+    this.lineTraceFlag["ArrayOperations.c:100"]=1;
+    this.lineTraceFlag["ArrayOperations.h:40"]=1;
+    this.lineTraceFlag["ArrayOperations.h:45"]=1;
+    this.lineTraceFlag["ArrayOperations.h:46"]=1;
+    this.lineTraceFlag["ArrayOperations.h:47"]=1;
+    this.lineTraceFlag["ArrayOperations.h:48"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
